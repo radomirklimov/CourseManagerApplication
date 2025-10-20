@@ -1,0 +1,79 @@
+﻿<Window x:Class="KursVerwaltung.CourseListWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Courses"
+        Height="450" Width="700"
+        Background="#F7F9FB"
+        FontFamily="Segoe UI">
+    <Border CornerRadius="12" Background="White" Padding="20" Margin="20">
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="8" ShadowDepth="2" Opacity="0.3"/>
+        </Border.Effect>
+
+        <DataGrid x:Name="CoursesDataGrid"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  IsReadOnly="True"
+                  AlternatingRowBackground="#F4F6F8"
+                  RowBackground="White"
+                  GridLinesVisibility="None"
+                  HeadersVisibility="Column"
+                  SelectionMode="Single"
+                  FontSize="14"
+                  HorizontalScrollBarVisibility="Disabled"
+                  CanUserResizeColumns="False">
+            <DataGrid.Resources>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#E8EAF6"/>
+                    <Setter Property="Foreground" Value="#333"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Height" Value="35"/>
+                </Style>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Margin" Value="2"/>
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect BlurRadius="3" Opacity="0.2"/>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="#D6EAF8"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.Resources>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Duration" Binding="{Binding Duration}" Width="*"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" Width="*"/>
+                <DataGridTextColumn Header="Booked" Binding="{Binding Booked}" Width="*"/>
+                <DataGridTemplateColumn Header="Actions" Width="100">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Delete"
+                                    Click="DeleteButton_Click"
+                                    Background="#E74C3C"
+                                    Foreground="White"
+                                    BorderBrush="#E74C3C"
+                                    Padding="5,2"
+                                    Cursor="Hand">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border Background="{TemplateBinding Background}"
+                                                CornerRadius="5"
+                                                Padding="2">
+                                            <ContentPresenter HorizontalAlignment="Center"
+                                                              VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Border>
+</Window>

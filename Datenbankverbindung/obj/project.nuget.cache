@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "qU5ZBrBi27glVSNBg9wBJwUuyF0OXJag018GFKYuQSHp/x76a2RGY/WQCzjl6Fgpth3xKlTDq7MsCYTGbxvkrw==",
+  "success": true,
+  "projectFilePath": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay\\KursVerwaltung\\Datenbankverbindung\\Datenbankverbindung.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Radomir\\.nuget\\packages\\oracle.manageddataaccess.core\\23.26.0\\oracle.manageddataaccess.core.23.26.0.nupkg.sha512",
+    "C:\\Users\\Radomir\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\Radomir\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\Radomir\\.nuget\\packages\\system.diagnostics.performancecounter\\8.0.0\\system.diagnostics.performancecounter.8.0.0.nupkg.sha512",
+    "C:\\Users\\Radomir\\.nuget\\packages\\system.directoryservices.protocols\\8.0.2\\system.directoryservices.protocols.8.0.2.nupkg.sha512",
+    "C:\\Users\\Radomir\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
+    "C:\\Users\\Radomir\\.nuget\\packages\\system.memory\\4.6.0\\system.memory.4.6.0.nupkg.sha512",
+    "C:\\Users\\Radomir\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+    "C:\\Users\\Radomir\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
