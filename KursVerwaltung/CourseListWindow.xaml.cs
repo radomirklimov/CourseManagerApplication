@@ -30,7 +30,7 @@ namespace KursVerwaltung
                     Name = row.Fields[1].Value.ToString(),
                     Duration = row.Fields[2].Value.ToString(),
                     Price = row.Fields[3].Value.ToString(),
-                    Booked = row.Fields[4].Value.ToString() == "Y" ? "Yes" : "No",
+                    Booked = row.Fields[4].Value.ToString() == "True" ? "Yes" : "No",
                     Id = row.Fields[0].Value.ToString() 
                 });
             }

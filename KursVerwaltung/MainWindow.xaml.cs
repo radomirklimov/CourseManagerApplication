@@ -79,7 +79,7 @@ namespace KursVerwaltung
                     $"Title: {addWindow.TitleInput}\n" +
                     $"Duration: {addWindow.DurationInput}\n" +
                     $"Price: {addWindow.PriceInput}\n" +
-                    $"Available: {(addWindow.IsAvailableInput ? "Yes" : "No")}\n" +
+                    $"Available: {(addWindow.BookedInput ? "Yes" : "No")}\n" +
                     $"Room: {addWindow.RoomInput}",
                     "Course Added",
                     MessageBoxButton.OK,

@@ -79,7 +79,7 @@ namespace Datenbankverbindung
                     row.AddField(new TextField("Name", reader["NAME"]?.ToString() ?? string.Empty));
                     row.AddField(new NumberField("Duration", Convert.ToInt32(reader["DURATION"])));
                     row.AddField(new NumberField("Price", Convert.ToDouble(reader["PRICE"])));
-                    row.AddField(new BoolField("Booked", reader["BOOKED"].ToString() == "T"));
+                    row.AddField(new BoolField("Booked", reader["BOOKED"].ToString() == "Y"));
 
                     courses.AddRow(row);
                 }

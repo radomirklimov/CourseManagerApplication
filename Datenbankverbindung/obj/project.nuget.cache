@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qU5ZBrBi27glVSNBg9wBJwUuyF0OXJag018GFKYuQSHp/x76a2RGY/WQCzjl6Fgpth3xKlTDq7MsCYTGbxvkrw==",
+  "dgSpecHash": "ERdfHaM15WwFWcT5VRLh21icBgXq/SjM5oxUCrMoAiqVHKgzFDGFBXnqtdVjrj4+7lxeOsUjxq/F+Tm76eYaRw==",
   "success": true,
-  "projectFilePath": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay\\KursVerwaltung\\Datenbankverbindung\\Datenbankverbindung.csproj",
+  "projectFilePath": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay_01\\Block3_Kursverwaltung_Projekt\\Datenbankverbindung\\Datenbankverbindung.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Radomir\\.nuget\\packages\\oracle.manageddataaccess.core\\23.26.0\\oracle.manageddataaccess.core.23.26.0.nupkg.sha512",
     "C:\\Users\\Radomir\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",

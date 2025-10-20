@@ -507,11 +507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay\\KursVerwaltung\\KursVerwaltung\\KursVerwaltung.csproj",
+      "projectUniqueName": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay_01\\Block3_Kursverwaltung_Projekt\\KursVerwaltung\\KursVerwaltung.csproj",
       "projectName": "KursVerwaltung",
-      "projectPath": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay\\KursVerwaltung\\KursVerwaltung\\KursVerwaltung.csproj",
+      "projectPath": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay_01\\Block3_Kursverwaltung_Projekt\\KursVerwaltung\\KursVerwaltung.csproj",
       "packagesPath": "C:\\Users\\Radomir\\.nuget\\packages\\",
-      "outputPath": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay\\KursVerwaltung\\KursVerwaltung\\obj\\",
+      "outputPath": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay_01\\Block3_Kursverwaltung_Projekt\\KursVerwaltung\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Radomir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -528,8 +528,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\development\\Block3_Kursliste_C#_Pr_MyWay\\KursVerwaltung\\Datenbankverbindung\\Datenbankverbindung.csproj": {
-              "projectPath": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay\\KursVerwaltung\\Datenbankverbindung\\Datenbankverbindung.csproj"
+            "D:\\development\\Block3_Kursliste_C#_Pr_MyWay_01\\Block3_Kursverwaltung_Projekt\\Datenbankverbindung\\Datenbankverbindung.csproj": {
+              "projectPath": "D:\\development\\Block3_Kursliste_C#_Pr_MyWay_01\\Block3_Kursverwaltung_Projekt\\Datenbankverbindung\\Datenbankverbindung.csproj"
             }
           }
         }

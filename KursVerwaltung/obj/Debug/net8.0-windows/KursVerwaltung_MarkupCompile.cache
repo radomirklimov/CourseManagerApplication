@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\development\Block3_Kursliste_C#_Pr_MyWay\KursVerwaltung\KursVerwaltung\obj\Debug\net8.0-windows\
+D:\development\Block3_Kursliste_C#_Pr_MyWay_01\Block3_Kursverwaltung_Projekt\KursVerwaltung\obj\Debug\net8.0-windows\
 KursVerwaltung
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\development\Block3_Kursliste_C#_Pr_MyWay\KursVerwaltung\KursVerwaltung\App.xaml
+D:\development\Block3_Kursliste_C#_Pr_MyWay_01\Block3_Kursverwaltung_Projekt\KursVerwaltung\App.xaml
 4-1595912485
 
 9-341046300
-2012022987691
+201-2126994424
 CourseListWindow.xaml;MainWindow.xaml;NewCourse.xaml;NewRoom.xaml;
 
 False

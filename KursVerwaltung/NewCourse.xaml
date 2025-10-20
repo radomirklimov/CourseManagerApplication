@@ -35,8 +35,8 @@
             <TextBlock Text="Price:" FontWeight="Bold" VerticalAlignment="Center" Grid.Row="2" Grid.Column="0"/>
             <TextBox x:Name="PriceTextBox" Grid.Row="2" Grid.Column="1" Margin="0,0,0,10" Padding="8"/>
 
-            <TextBlock Text="Available:" FontWeight="Bold" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0"/>
-            <CheckBox x:Name="IsAvailableCheckBox" Grid.Row="3" Grid.Column="1" Margin="0,0,0,10"/>
+            <TextBlock Text="Booked:" FontWeight="Bold" VerticalAlignment="Center" Grid.Row="3" Grid.Column="0"/>
+            <CheckBox x:Name="BookedCheckBox" Grid.Row="3" Grid.Column="1" Margin="0,0,0,10"/>
 
             <TextBlock Text="Room:" FontWeight="Bold" VerticalAlignment="Center" Grid.Row="4" Grid.Column="0"/>
             <TextBox x:Name="RoomTextBox" Grid.Row="4" Grid.Column="1" Margin="0,0,0,10" Padding="8"/>

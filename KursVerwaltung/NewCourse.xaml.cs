@@ -20,7 +20,7 @@ namespace KursVerwaltung
         public string TitleInput => TitleTextBox.Text;
         public string DurationInput => DurationTextBox.Text;
         public string PriceInput => PriceTextBox.Text;
-        public bool IsAvailableInput => IsAvailableCheckBox.IsChecked == false;
+        public bool BookedInput => BookedCheckBox.IsChecked == true;
         public string RoomInput => RoomTextBox.Text;
 
         DbService service = new DbService();  
@@ -28,7 +28,7 @@ namespace KursVerwaltung
         public NewCourse()
         {
             InitializeComponent();
-            IsAvailableCheckBox.IsChecked = false;
+            BookedCheckBox.IsChecked = false;
         }
 
         private void Add_Click(object sender, RoutedEventArgs e)
@@ -96,7 +96,7 @@ namespace KursVerwaltung
                 Console.WriteLine($"Error (Price): {errorMessage}");
 
             BoolField bookedField = new BoolField("Booked");
-            if (bookedField.TrySetValue(IsAvailableInput ? "N" : "Y", out errorMessage))
+            if (bookedField.TrySetValue(BookedInput ? "Y" : "N", out errorMessage))
                 course.AddField(bookedField);
             else
                 Console.WriteLine($"Error (Booked): {errorMessage}");
